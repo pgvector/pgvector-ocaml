@@ -57,7 +57,7 @@ c#exec ~expect:[Command_ok]
 
 Use `vector_ip_ops` for inner product and `vector_cosine_ops` for cosine distance
 
-See a [full example](example.ocaml)
+See a [full example](example.ml)
 
 ## Contributing
 
