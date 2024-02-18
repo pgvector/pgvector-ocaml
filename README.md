@@ -49,10 +49,10 @@ Add an approximate index
 
 ```ocaml
 c#exec ~expect:[Command_ok]
-  "CREATE INDEX ON items USING ivfflat (embedding vector_l2_ops) WITH (lists = 100)"
+  "CREATE INDEX ON items USING hnsw (embedding vector_l2_ops)"
 (* or *)
 c#exec ~expect:[Command_ok]
-  "CREATE INDEX ON items USING hnsw (embedding vector_l2_ops)"
+  "CREATE INDEX ON items USING ivfflat (embedding vector_l2_ops) WITH (lists = 100)"
 ```
 
 Use `vector_ip_ops` for inner product and `vector_cosine_ops` for cosine distance
