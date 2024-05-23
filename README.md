@@ -4,7 +4,7 @@
 
 Supports [PostgreSQL-OCaml](https://github.com/mmottl/postgresql-ocaml)
 
-[![Build Status](https://github.com/pgvector/pgvector-ocaml/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/pgvector/pgvector-ocaml/actions)
+[![Build Status](https://github.com/pgvector/pgvector-ocaml/actions/workflows/build.yml/badge.svg)](https://github.com/pgvector/pgvector-ocaml/actions)
 
 ## Getting Started
 
